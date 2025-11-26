@@ -1,9 +1,9 @@
 [project]
 name = "pyexample"
 version = "0.1.0"
-description = "Add your description here"
+description = "Example Data Science Project with Python (no tools like uv/poetry/conda)"
 readme = "README.md"
-license = "MIT"
+license = "GPL-3.0-or-later"
 requires-python = ">=3.12"
 dependencies = [
     "pytest",

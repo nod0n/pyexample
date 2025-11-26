@@ -1,4 +1,4 @@
-# pyexample
+# PyExample - Example Data Science Project with Python (no tools like uv/poetry/conda)
 
 Minimal example Python project demonstrating a sane structure (`src/` layout), loose dependency pinning in `pyproject.toml`, and reproducible installs via a separate `requirements.txt` — without mandating a specific tool like Poetry or uv. This is a starting point, using uv/poetry/*conda is recommended for more advanced use cases.
 

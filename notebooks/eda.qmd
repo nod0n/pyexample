@@ -1,7 +1,6 @@
 ---
 title: "PyExample - Exploratory Data Analysis"
 author: "Aaron Brülisauer"
-bibliography: "../references.bib"
 execute-dir: "file"
 output-dir: "output"
 number-depth: 3
