@@ -1,0 +1,37 @@
+---
+title: "PyExample - Exploratory Data Analysis"
+author: "Aaron Brülisauer"
+bibliography: "../references.bib"
+execute-dir: "file"
+output-dir: "output"
+number-depth: 3
+papersize: "a4paper"
+self-contained: true
+highlight-style: pygments
+format-links: false
+code-overflow: "wrap"
+geometry: "left=2cm, right=2cm, top=2cm, bottom=2cm"
+format:
+    html:
+        code-fold: true
+        code-overflow: "wrap"
+        toc: true
+    pdf:
+        toc: true
+        number-sections: true
+        echo: false
+---
+
+This file is a Quarto file and can be converted to a jupyter notebook and vice versa. See:
+
+[Spaces - Kickstart Tools & Services - Notebooks (Jupyter/R/Quarto)](https://spaces.informatik.fhnw.ch/spaces/kickstart-tools-services#Notebooks-(JupyterRQuarto))
+
+This way you are free to use Jupyter but it is recommended to commit *.qmd files to version control as they are more lightweight and easier to diff/merge than Jupyter notebooks.
+
+# Loading Data
+```{python}
+from pyexample.utils import data
+
+df = data.load()
+df.shape
+```
